@@ -1,4 +1,4 @@
-# **Twitter Presidt**
+# **2016 Presidential Contest**
 
 *Twitter Text Mining and Sentiment Analysis*
 ----------------------------------------------------------------------------------------------
@@ -46,7 +46,7 @@ Then save the twitter data to a json file.
  ***Step 5:  Sentiment Analysis*** 
 
 
-###**3. To Do ** 
+###**4. To Do** 
 There are some limitations need to be addressed for more accurate analysis.
 **a.** The keywords (the name of these candidates) to filter the twitter message. People may just use Trump instead of Donald Trump to discuss.
 **b.**   Larger sample size is needed. The current analysis was based on 36,000 twitter with streaming for an hours. 
