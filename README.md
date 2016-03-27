@@ -5,14 +5,18 @@
 
 ###**1. Overview** 
 This project aims to use python as a tool to gather information from twitter about the 2016 presidential candidates (as of March 15 2016, only 4 republican and 2 democratic candidates remain in the contest). The following three specific goals were achieved.
+
 A. ***Twitter Streaming.*** The names of the candidates were used as keywords to filter the twitter message.
+
 B.  ***Read and Clean the Data.*** This step was to read the "raw" data and do some pre-processing.
+
 C.  ***Popularity Analysis.*** It's interesting to know which candidate was discussed more frequently in twitter.
+
 D. ***Sentiment Analysis.*** It is also interesting to see people's attitude toward each candidate (positive and
-		 negative scores).
+		 negative scores).         
 
 ###**2. Results** 
-A. ***Popularity Analysis*** (assumption:  the popularity score indicates the number of topics related to a certain candidate, not necessarily reflect the degree of favorite )
+ ***A. Popularity Analysis*** (assumption:  the popularity score indicates the number of topics related to a certain candidate, not necessarily reflect the degree of favorite )
 													
 			 --The Distribution of Candidates Being Discussed on Twitter--
 
@@ -20,7 +24,7 @@ A. ***Popularity Analysis*** (assumption:  the popularity score indicates the nu
 
 - This is a little surprising that Ted Cruz was discussed the most on Twitter, while Hillary Clinton was the lowest. 
 
-B. ***Sentiment Analysis.*** The sentiment analysis was based a list of English words which have been manually labeled by Finn Nielsen in 2009-2011. The words were rated with an integer between -5 and +5. For more information please refer to http://www2.imm.dtu.dk/pubdb/views/publication_details.php?id=6010. 
+ ***B.Sentiment Analysis.*** The sentiment analysis was based a list of English words which have been manually labeled by Finn Nielsen in 2009-2011. The words were rated with an integer between -5 and +5. For more information please refer to http://www2.imm.dtu.dk/pubdb/views/publication_details.php?id=6010. 
 
 ![alt tag](https://cloud.githubusercontent.com/assets/17630430/13901325/d73ea338-eded-11e5-89e5-bf749fb418aa.png "Candicate Popularity")
 
@@ -48,6 +52,9 @@ Then save the twitter data to a json file.
 
 ###**4. To Do** 
 There are some limitations need to be addressed for more accurate analysis.
+
 **a.** The keywords (the name of these candidates) to filter the twitter message. People may just use Trump instead of Donald Trump to discuss.
+
 **b.**   Larger sample size is needed. The current analysis was based on 36,000 twitter with streaming for an hours. 
+
 **c.** The data was collected in late evening, which may result in time bias. Data sampling at different time across a longer periods are required to produce more meaningful data.
